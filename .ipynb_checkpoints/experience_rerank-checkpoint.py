@@ -27,32 +27,36 @@ llm = OpenAILike(
     api_key="loremIpsum",  
     is_chat_model=True,  
     context_window=4048,
-    temperature = 0
+    temperature = 0.3
 )
 
 def single_JD_retrive(index, JD):
-    retriever = index.as_retriever()
+    retriever = index.as_retriever(similarity_top_k=3)
     nodes = retriever.retrieve(JD)
-    prompt = "Here are expereinces retrived for this JD - {}:\n".format(JD)
+    experience_set = set()
     for i, node in enumerate(nodes):
-        prompt += "{}.{}\n\n".format(i, node.text)
-    prompt += """Please choose one that best fits the JD based on experience relavance and experience date. 
-    Do not return any comments or explainantion but just return the experience itself."""
-    response = llm.complete(prompt, temperature=0.1)
-    return "\n".join(response.text.split("\n")[1:])
+        experience_set.add(node.text)
+        
+    return experience_set
 
 def multiple_JD_retrive(index, JD_list):
-    prompt = "You job is to find best combination of experiences that fits in the JD. Here is the job description: \n"
+    experience_set = set()
+    prompt = """You job is to find best combination of experiences that fits in the JD. 
+                Try to select 3 - 4 experiences that best fit in the JD and also fit in one-page resume.
+                Here is the job description: """
     for i, JD in enumerate(JD_list):
         prompt += "{}.{}".format(i,JD)
 
     prompt += "\nHere are the experiences selected: \n"
-    for i, JD in enumerate(JD_list):
+    
+    for JD in JD_list:
         experience = single_JD_retrive(index, JD)
-        prompt += "{}.{}".format(i,experience)
+        experience_set = experience_set.union(experience)
 
-    prompt += "Choose the best combination of experiences that fit in JD and also would fit in one-page resume."
-    response = llm.complete(prompt, temperature=0.1)
+    for i, exp in enumerate(experience_set):
+        prompt += "{}.{}".format(i,exp)
+
+    response = llm.complete(prompt, temperature=0.3)
     return response
 
 
