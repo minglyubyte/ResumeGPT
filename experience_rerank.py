@@ -27,7 +27,7 @@ llm = OpenAILike(
     api_key="loremIpsum",  
     is_chat_model=True,  
     context_window=4048,
-    temperature = 0.3
+    temperature = 0.2
 )
 
 def single_JD_retrive(index, JD):
