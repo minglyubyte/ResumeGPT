@@ -1,0 +1,7 @@
+5+ years of industry experience in NLP/NLU and reasonable industry experience in LLMs
+A startup mindset, biasing towards thoughtful action with minimal direction
+Great curiosity about the latest ML research
+Excellent communication skills, especially when it comes to sharing results of your research and experiments with your team in order to inform product development.
+Hands-on experience with popular ML frameworks (like PyTorch, TensorFlow, Keras).
+Strong skills with Python and experience with technologies like LLMs, BERT transformers and relevant NLP libraries ( NLTK, spaCy etc)
+Bonus: Experience working with ML related services in AWS, Google Cloud, or Microsoft Azure

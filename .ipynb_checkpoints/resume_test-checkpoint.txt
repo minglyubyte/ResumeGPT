@@ -1,0 +1,66 @@
+Data Scientist
+Leaf Group · Full-time
+• Implemented unsupervised topic modeling on articles from 20+ websites using an approach based on TF-IDF scores from n-gram frequencies, indexing scores, and other relevant metrics for internal linking to increase back-links.
+• Utilized sentence-transformer for efficient article clustering based on predefined topics, generating sentence embeddings similar to word2vec.
+• Leveraged LLM(large language models) like ChatGPT for accurate topic tagging across diverse articles with appropriate prompts, enhancing content categorization and accessibility and conducting in-depth performance and competitor analysis, translating data into actionable insights for strategic decision-making.
+• Designed and implemented multiple NLP-related widget applications, then containerized them using Docker for efficient deployment. These applications were deployed on Nomad servers, serving as API endpoints, which enhanced website functionality and contributed to increased web traffic by 15%.
+• Developed data visualizations and dashboards with Matplotlib for conveying insights and actionable recommendations. This approach led to the removal of 25% of low-quality pages, which only contributed 5% to the overall domain revenue
+
+Data Scientist Internship
+Leaf Group · Internship
+Jun 2021 - Nov 2021 · 6 mos
+Santa Monica, California, United StatesSanta Monica, California, United States
+• Analyzed our competitors’ websites by assessing their keyword traffic and website features, in order to improve our search engine optimization (SEO) strategy through a comprehensive gap analysis.
+• Developed and optimized an algorithm capable of identifying suitable rhyme words for a database of 70,000 synonyms, enhancing the user experience and promoting greater creativity in language use.
+• Created a database of 70,000 synonyms with matching sentence examples based on part-of-speech (POS) tags and readability scores, along with famous quotes for context and inspiration.
+• Clustered Google’s n-gram data using sentence embedding, cosine similarity, and hierarchical clustering to build synonyms for phrases (containing at least two words) to extend the 70k synonyms database.
+
+Machine Learning Research Assistant
+Graduates Rising in Informatics and Data Science (GRIDS) · Part-time
+Feb 2021 - Jun 2021 · 5 mos
+Los Angeles, California, United StatesLos Angeles, California, United States
+• Designed a scalable experimental structure for testing various deep learning and machine learning models.
+• Utilized transfer learning techniques with popular models such as VGG19, ResNet50, and Inception V3 to accurately classify microstructure images, achieving a validation accuracy of approximately 0.8.
+• Conducted visualization of images within the convolutional neural network to analyze feature extraction and model interpretation.
+• Worked in collaboration with the front-end team to automate the model optimization and prediction process.
+
+Data Analyst Internship
+依图科技 · Internship
+Jun 2019 - Aug 2019 · 3 mos
+Hangzhou, Zhejiang, ChinaHangzhou, Zhejiang, China
+• Designed and implemented a comprehensive schema and rules for feature extraction from medical record texts, specifically focusing on lung cancer cases. Analyzed a vast dataset of over 10,000 patient records to fulfill the requirements of Zhejiang Cancer Hospital, a leading institution renowned for cancer treatment in China.
+• Conducted a meticulous error analysis to enhance the feature extraction rules, leading to an impressive 90% accuracy rate in extracting crucial features, including lung cancer originality and the timing of the initial diagnosis.
+• Worked closely with a multi-disciplinary team of medical professionals, leveraging their domain expertise in lung cancer treatment, to ensure that the rules for feature extraction aligned seamlessly with medical standards and best practices.
+
+Undergraduate Research Assistant
+Rose-Hulman Institute of Technology
+May 2018 - Aug 2018 · 4 mos
+Terre Haute, Indiana AreaTerre Haute, Indiana Area
+• Conducted thorough and in-depth research on cryptocurrency and blockchain technologies, exploring their underlying principles and applications within the financial and technological landscape.
+• Provided comprehensive overviews of prominent cryptocurrencies, including Bitcoin, Ethereum, and IOTA. Performed detailed analyses of each cryptocurrency's design and architecture to assess their real-world potential and their ability to deliver on their promises.
+• Led research efforts focused on applying regulations to the cryptocurrency industry, with a particular emphasis on combating issues related to money laundering and illicit activities.
+• Demonstrated a keen interest in the convergence of blockchain techniques with the Internet of Things (IoT), with a strong fascination for IOTA's innovative tangle system and its potential to revolutionize the IoT ecosystem.
+
+Data Scientist
+Amazon · Internship
+May 2022 - Aug 2022 · 4 mos
+Seattle, Washington, United States · On-site
+• Developed an automatic sentiment labeling system via designing two sets of rules based on sentiment level and completeness to help the product team to label the sentiment classes on 3000+ phone call transcripts between Amazon employee and agent from 2021.01-2022.03
+• Conducted stratified sampling on 800K+ transcript data to sample data with different length; researched factor importance via building a tree model was to obtain the factor importance; improving 18% F1-score
+• Performed quantitative analysis on call transcript data, conducted text summarization and extracted recap data with pseudo labels as augmented training data; improving 24% F1-score on BERT
+• Implemented BERT as the selected sentiment classification model on the extracted phone call transcript, 
+receiving 87% F1-score; 22 experience teams are deploying this project, where the manual work reduced by 
+60% from an average of 40 hours/project analyzing
+
+End to End Weather Forecasting
+Los Angeles, CA
+• Developedaweatherforecastingmodelusingtransformer-baseddeeplearningusingPyTorch,focusingontime-seriesforecasting. Predicts temperatures by analyzing humidity and other related features.
+• AccumulatedextensiveexpertiseinSQLdatabasemanagement,coveringdesign,querying,andmanipulationofmultipledatasets, particularly historical weather data.
+• Seamlessly integrated MLflow for deploying, monitoring, and maintaining machine learning models, ensuring robustness and reliability.
+• Demonstrated proficiency in Docker containerizationa nd AWS cloud deployment,showcasing skills in efficient application management and scalability.
+• Proficiently deployed applications on Amazon Web Services (AWS), gaining experience in cloud services, including AWS RDS for
+database management, AWS S3 for data storage, and AWS EC2 for server setup and application deployment.
+• Implemented and managed a Continuous Integration and Continuous Deployment (CI/CD) pipeline using GitHub Actions, au-
+tomating deployment processes and application functionality.
+• Implemented automated data processing and scheduling using Cron Jobs, leveraging a Python script for data ingestion, model
+predictions, and monitoring on an AWS EC2 instance.
